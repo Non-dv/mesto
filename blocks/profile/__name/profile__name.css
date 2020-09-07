@@ -1,11 +1,9 @@
 .profile__name {
-    display: inline-block;
     font-weight: 500;
     font-size: 42px;
     line-height: 56px;
     color: #FFFFFF;
     margin: 0;
-    padding-top: 18px;
     max-width: 295px;
     overflow-wrap: break-word;
 }
