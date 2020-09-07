@@ -1,15 +1,24 @@
-.popup__input-description {
-    margin: 29.74px 36px 48px;
+.popup__input {
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width: 358px;
     height: 28px;
+    margin: 54px 36px 0;
     padding: 0;
 }
 
+.popup__input:last-child {
+    margin: 29.74px 36px 48px;
+}
+
 @media screen and (max-width: 680px) {
-    .popup__input-description {
+    .popup__input {
         max-width: 200px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .popup__input:last-child {
         margin-left: 25px;
         margin-right: 25px;
     }

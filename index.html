@@ -27,42 +27,42 @@
                 <img class="element__foto" src="./images/Karachaevks.png" alt="Фото Карачаевска">
                 <div class="element__description">
                     <h2 class="element__text">Карачаевск</h2>
-                    <img class="element__like-button" src="./images/Like.svg" alt="Иконка лайка">
+                    <button class="element__like-button" type="button"></button>
                 </div>
             </li>
             <li class="element">
                 <img class="element__foto" src="./images/Elbrus.png" alt="Фото Эльбруса">
                 <div class="element__description">
                     <h2 class="element__text">Гора Эльбрус</h2>
-                    <img class="element__like-button" src="./images/Like.svg" alt="Иконка лайка">
+                    <button class="element__like-button" type="button"></button>
                 </div>
             </li>
             <li class="element">
                 <img class="element__foto" src="./images/Dombay.png" alt="Фото Домбая">
                 <div class="element__description">
                     <h2 class="element__text">Домбай</h2>
-                    <img class="element__like-button" src="./images/Like.svg" alt="Иконка лайка">
+                    <button class="element__like-button" type="button"></button>
                 </div>
             </li>
             <li class="element">
                 <img class="element__foto" src="./images/Elbrus.png" alt="Фото Эльбруса">
                 <div class="element__description">
                     <h2 class="element__text">Гора Эльбрус</h2>
-                    <img class="element__like-button" src="./images/Like.svg" alt="Иконка лайка">
+                    <button class="element__like-button" type="button"></button>
                 </div>
             </li>
             <li class="element">
                 <img class="element__foto" src="./images/Dombay.png" alt="Фото Домбая">
                 <div class="element__description">
                     <h2 class="element__text">Домбай</h2>
-                    <img class="element__like-button" src="./images/Like.svg" alt="Иконка лайка">
+                    <button class="element__like-button" type="button"></button>
                 </div>
             </li>
             <li class="element">
                 <img class="element__foto" src="./images/Karachaevks.png" alt="Фото Карачаевска">
                 <div class="element__description">
                     <h2 class="element__text">Карачаево-Черкесия</h2>
-                    <img class="element__like-button" src="./images/Like.svg" alt="Иконка лайка">
+                    <button class="element__like-button" type="button"></button>
                 </div>
             </li>
         </ul>
@@ -71,11 +71,11 @@
         <p class="footer__copyright">&COPY; 2020 Mesto Russia</p>
     </footer>
     <section class="popup">
-        <form class="popup__container">
+        <form class="popup__container" name="popupForm" action="/scripts/script.js" method="POST">
             <h2 class="popup__title">Редактировать профиль</h2>
             <fieldset class="popup__inputs">
-                <input class="popup__input-name" type="text" value="Жак-Ив Кусто">
-                <input class="popup__input-description" type="text" value="Исследователь океана">
+                <input class="popup__input popup__input_place_name" type="text" name="editName">
+                <input class="popup__input popup__input_place_description" type="text" name="editDescription">
             </fieldset>
             <button class="popup__button" type="submit">Сохранить</button>
             <button class="popup__close-button" type="button"></button>
